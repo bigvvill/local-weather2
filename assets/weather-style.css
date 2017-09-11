@@ -1,0 +1,112 @@
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    background-color: black !important;
+    display: flex;
+
+}
+
+#mainContainer {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    
+    /*border-radius: 16px;*/
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.currentImage{
+    margin: auto;
+}
+
+#title{
+    background: darkblue;
+    font-family: lucinda;
+    text-align: center;
+    color: beige;
+    font-size:12px;
+    
+}
+
+#city, #country{
+    color: #343E6A;
+    font-size: 24px;
+    margin: 5px;
+
+    
+}
+
+.locationContainer {
+    width: 40%;
+    height: 85px;
+    border: 4px solid #343E6A;
+    border-radius: 16px;
+    margin: 20px auto;
+    background-color: rgba(99,155,208,0.85);
+    padding-left: 10px;
+}
+
+.dataContainer {
+    width: 40%;
+    height: 500px;
+    border: 4px solid #343E6A;
+    border-radius: 16px;
+    margin: 20px auto;
+    background-color: rgba(99,155,208,0.85);
+    padding-left: 10px;
+    color: #343E6A;
+}
+
+#temperature {
+    font-size: 6.0em;
+    color: #343E6A;
+    text-shadow: -1px 1px 1px black;
+    padding: 30px 0px 10px 10px;
+}
+
+#degreeAndUnit {
+    font-size: 4.0em;
+    color: #343E6A;
+    text-shadow: -1px 1px 1px black;
+    padding: 40px 0px 10px 30px;
+}
+
+#symbol{
+    height: 190px;
+    width: 190px;
+
+}
+
+#symbol img{
+    width:100%;
+    margin: 20px 20px 20px 0;
+}
+
+#conditions {
+    font-size: 2.0em;
+    margin: auto;
+    margin: 0 0 60px 0;
+    
+}
+
+.dataText {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px 0 0 0;
+}
+
+#sunrise {
+    margin: 20px 0 0 0;
+}

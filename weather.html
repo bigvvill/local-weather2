@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Current Local Weather</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link type="text/css" href="assets/weather-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="mainContainer" class="mainContainer">
+            
+                <div id="title">Current Local Weather</div>
+                <div class="locationContainer">
+                    <div id="city"></div>
+                    <div id="country"></div>
+                </div>
+                <div class="dataContainer"</div>
+                    <div class="row">
+                        <div class = "col-xs-2" id="symbol"><img id="currentIcon" class="currentImage" src="#"></div>
+                        <div class = "col-xs-2" id="temperature"></div>
+                        <div class = "col-xs-2" id="degreeAndUnit"></div>
+                    </div>
+                    <div class="dataText" id="conditions"></div>
+                    <div class="dataText" id="humidity"></div>
+                    <div class="dataText" id="winds"></div>
+                    <div class="dataText" id="pressure"></div>
+                    <div class="dataText" id="sunrise"></div>
+                    <div class="dataText" id="sunset"></div>
+                    <button id="units" class="btn btn-default">Use Metric</button>
+                </div>
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+        <script src="assets/weather-script.js"></script>
+    </body>
+</html>
